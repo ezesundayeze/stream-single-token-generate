@@ -15,7 +15,9 @@ app.post("/get-token/", (req, res, next)=>{
     next()
 })
 
-app.listen(8080, () => console.log('server started'))
+var port = process.env.PORT || 3002
+
+app.listen(port, () => console.log('server started'))
 
 
 
