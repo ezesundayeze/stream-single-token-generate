@@ -10,8 +10,10 @@ npm install
 
 ### Create a .env file and add your api key and secret like so:
 
+```bash
 API_KEY=*********
 API_SECRET=**************
+```
 
 Run 
 ```bash 
